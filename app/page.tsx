@@ -291,7 +291,7 @@ function Description({ isLoaded }: { isLoaded: boolean }) {
           continuously enhancing my skills across frontend and backend and app
           development.currently exploring the world of web3 and blockchain.
         </p>
-        <p>
+        <p className="text-sm text-neutral-900 dark:text-neutral-200">
           i love auditing businesses and helping them grow by providing them best
           tech solutions they need. i’m always open to meeting new people and working on
           new things.
