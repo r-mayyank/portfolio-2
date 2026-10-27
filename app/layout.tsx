@@ -2,6 +2,8 @@ import "@/app/globals.css"
 import { Inter } from "next/font/google"
 import type React from "react"
 import { ThemeProvider } from "@/components/theme-provider"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,6 +26,8 @@ export default function RootLayout({
       <body className="font-sans bg-white dark:bg-neutral-950">
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}
+          <Analytics />
+          <SpeedInsights />
         </ThemeProvider>
       </body>
     </html>
