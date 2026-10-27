@@ -100,6 +100,27 @@ function getSocialIcon(label: string) {
 
 const experiences = [
   {
+    company: "freelance",
+    role: "full stack developer",
+    period: "oct 2026 - present",
+    description: [
+      "• built there storefront and connected it to shopify headless store, later migrated from shopify headless store to in-house backend inventory management with integration of faster checkouts and payment gateway, totalling up to 56 API-route.",
+      "• as a founding member, lead there development with full autonomy and with best practices to give an head start to new business starting out.",
+      "• my sevices also included SEO optimization, abondoned cart optimization, conversion booster, CRM system, AI automatons workflows.",
+    ],
+    skills: "next.js · typescript · express.js · postgres · railway",
+  },
+  {
+    company: "freelance",
+    role: "full stack developer",
+    period: "jun 2026 - present",
+    description: [
+      "• built a complex vehicle inspection software for third-party insurance company consisting of RBAC webpage, mobile app for there client, backend with 80+ API-route with security features.",
+      "• built an MVP for AI insurance claims processing and automated vehicle claim estimation.",
+    ],
+    skills: "next.js · express.js · react native expo · typescript · sockets",
+  },
+  {
     company: "turbin3",
     role: "apprenticeship",
     period: "jan 2026 - feb 2026",
@@ -242,7 +263,7 @@ function Header({ isLoaded }: { isLoaded: boolean }) {
           </kbd>
         </h1>
         <p className="text-sm font-medium text-[#62748e] dark:text-neutral-400">
-          full-stack engineer · solana · 20
+          full-stack engineer · solana · 21
         </p>
       </div>
     </header>
@@ -268,7 +289,12 @@ function Description({ isLoaded }: { isLoaded: boolean }) {
           building and contributing to open source projects around solana and as
           a full-stack developer every day I dive deeper into new technologies,
           continuously enhancing my skills across frontend and backend and app
-          development.
+          development.currently exploring the world of web3 and blockchain.
+        </p>
+        <p>
+          i love auditing businesses and helping them grow by providing them best
+          tech solutions they need. i’m always open to meeting new people and working on
+          new things.
         </p>
       </div>
     </div>
